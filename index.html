@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-text">
+            <h2 class="heading">Roshith's Photography</h2>
+            <p class="subheading">Hello Guys, This is Roshith and welcome you to my portfolio! Through the lens of my camera, I strive to capture the essence of fleeting moments, transforming them into timeless visual narratives. <br> <br> Thank you for visiting</p>
+        </div>
+        <div class="gallery">
+            <div class="box row-2" id="box-1" style="background-image: url(1.jpg);" data-text= " ". ></div>
+            <div class="box col-2" style="background-image: url(2.jpg);" data-text=" "></div>
+            <div class="box" style="background-image: url(9.jpg);" data-text=" "></div>
+            <div class="box row-2" style="background-image: url(3.jpg);" data-text=" "></div>
+            <div class="box col-2" style="background-image: url(10.jpg);" data-text=" "></div>
+            <div class="box" style="background-image: url(6.jpg);" data-text=" "></div>
+            <div class="box col-2" style="background-image: url(11.jpg);" data-text=" "></div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modal-image">
+            <p id="modal-text" class="additional-text">Your additional text goes here.</p>
+            <button id="prev-btn">&#10094;</button>
+            <button id="next-btn">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
